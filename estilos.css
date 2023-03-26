@@ -1,0 +1,158 @@
+body {
+    margin:0%;
+    padding:0%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70%;
+    align-items: center;
+    background-color: #FEE7E5;
+}
+
+nav {
+    justify-content:end;
+    display: flex;
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    font-size: 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* ver como arreglo el logo */
+h1 {
+    display: flex;
+    flex: content;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedorUno p {
+    padding-left: 20px;
+    margin: 15px;
+    padding: 5px;
+    
+}
+
+.contenedorUno h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedorDos {
+    padding: 55px;
+    margin-top: 5%;
+}
+
+.contenedorDos h2 {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.contenedorDos p {
+    text-align: center;
+    margin: 20px;
+    padding: 35px;
+}
+
+ .hamaca {
+    width: 380px;
+    float:right;
+    padding: 10px;
+    margin: 20px;
+ }
+
+ .getstart button {
+    text-decoration: none;
+    background-color: black;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px 150px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+ }
+
+ .getstart a {
+    text-decoration: none;
+    color: white;
+ }
+
+ .contenedorTres {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 95px;
+    text-align: center;
+    margin-bottom: 10%;
+ }
+ .contenedorTres p {
+    font-size: 15px;
+ }
+
+ .contenedor-imagen img {
+    width: 100px;
+    
+ }
+
+ footer {
+    background-color: grey;
+    font-size: 15px;
+ }
+
+ .redes {
+    color: white;
+ }
+
+ .Copyright {
+    color: white;
+    margin-left: 20px;
+ }
+
+ .contenedorCuatro ul {
+    list-style: none;
+    display: flex; 
+ }
+
+ .contenedorCuatro {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .contenedorCuatro ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+ }
+
+ .contenedorCuatro ul li a img {
+    width: 20px;
+ }
+
+ 
+
+
+
+
+
+
